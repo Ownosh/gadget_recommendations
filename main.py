@@ -1,6 +1,6 @@
 from owlready2 import *
 
-onto = get_ontology("file://C:/Users/Korpa/OneDrive/Desktop/gadget_recommendations/S22.owx").load()
+onto = get_ontology("file://C:/Users/Korpa/OneDrive/Desktop/gadget_recommendations/gadget_recommendations/S22.owx").load()
 
 def recommend_gadget():
     print("Система рекомендаций гаджетов!")
